@@ -50,3 +50,13 @@ footer {
 footer p {
     margin: 1rem 0 0 0;
 }
+
+/*********************************  MODIFICICATIONS PAR VIVIANE *********************************/
+
+.titre-activite{
+    border-bottom: solid 2px var(--text-color);
+}
+
+.date{
+    font-weight: bold;
+}
