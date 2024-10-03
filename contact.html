@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>AssocBad - Nous contacter</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AssocBad</h1>
+
+        <h2>Nous contactez</h2>
+
+        <div class="formulaireContact">
+            <form action="">
+                <label for="texteNom">Nom : </label>
+                <input type="text" id="texteNom">
+                
+                <label for="textePrenom">Prénom : </label>
+                <input type="text" id="textePrenom">
+                
+                <label for="texteMail">eMail : </label>
+                <input type="mail" id="texteMail">
+                
+                <label for="selectRaison">Objet : </label>
+                <select name="raison" id="selectRaison">
+                    <option value="inscription">Inscription</option>
+                    <option value="location">Location de matériel</option>
+                    <option value="decouverte">Cours de découverte</option>
+                    <option value="competition">Organiser une compétition</option>
+                    <option value="autre">Autre raison</option>
+                </select>
+
+                <label for="texteDetail">Veuillez détailler votre demande :</label>
+                <textarea id="texteDetail"></textarea>
+
+                <input type="button" id="boutonEnvoyer" value="Envoyer">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
