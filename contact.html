@@ -5,10 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
     <title>AssocBad - Nous contacter</title>
 </head>
 
 <body>
+    <nav>
+        <label for="menu-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <input id="menu-toggle" type="checkbox">
+        <table class="menu">
+            <tr>
+                <td>
+                    <a href="./index.html">Accueil</a>
+                </td>
+                <td>
+                    A propos
+                </td>
+                <td>
+                    Activités / Services
+                </td>
+                <td>
+                    <a href="./contact.html">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </nav>
 
     <div class="container">
 
@@ -18,28 +43,40 @@
 
         <div class="formulaireContact">
             <form action="">
-                <label for="texteNom">Nom : </label>
-                <input type="text" id="texteNom">
+                <div class="elementFormulaire">
+                    <label for="texteNom">Nom : </label>
+                    <input type="text" id="texteNom">
+                </div>
                 
-                <label for="textePrenom">Prénom : </label>
-                <input type="text" id="textePrenom">
+                <div class="elementFormulaire">
+                    <label for="textePrenom">Prénom : </label>
+                    <input type="text" id="textePrenom">
+                </div>
                 
-                <label for="texteMail">eMail : </label>
-                <input type="mail" id="texteMail">
+                <div class="elementFormulaire">
+                    <label for="texteMail">eMail : </label>
+                    <input type="mail" id="texteMail">
+                </div>
                 
-                <label for="selectRaison">Objet : </label>
-                <select name="raison" id="selectRaison">
-                    <option value="inscription">Inscription</option>
-                    <option value="location">Location de matériel</option>
-                    <option value="decouverte">Cours de découverte</option>
-                    <option value="competition">Organiser une compétition</option>
-                    <option value="autre">Autre raison</option>
-                </select>
-
-                <label for="texteDetail">Veuillez détailler votre demande :</label>
-                <textarea id="texteDetail"></textarea>
-
-                <input type="button" id="boutonEnvoyer" value="Envoyer">
+                <div class="elementFormulaire">
+                    <label for="selectRaison">Objet : </label>
+                    <select name="raison" id="selectRaison">
+                        <option value="inscription">Inscription</option>
+                        <option value="location">Location de matériel</option>
+                        <option value="decouverte">Cours de découverte</option>
+                        <option value="competition">Organiser une compétition</option>
+                        <option value="autre">Autre raison</option>
+                    </select>
+                </div>
+                
+                <div class="elementFormulaire">
+                    <label for="texteDetail">Veuillez détailler votre demande :</label>
+                    <textarea id="texteDetail"></textarea>
+                </div>
+                
+                <div class="elementFormulaire">
+                    <input type="button" id="boutonEnvoyer" value="Envoyer">
+                </div>
             </form>
         </div>
 
