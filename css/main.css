@@ -1,12 +1,22 @@
+:root{
+    /* Couleurs background */
+    --body-color: rgb(144, 214, 238);
+    --container-color: rgb(205, 232, 241);
+
+    /* Couleurs texte */
+    --text-color: rgb(54, 51, 51);
+    --footer-color: gray;
+}
+
 html, body{
-    background-color: rgb(144, 214, 238);
+    background-color: var(--body-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(54, 51, 51);
+    color: var(--text-color);
 }
 
 .container{
-    background-color: rgb(205, 232, 241);
-    border: 1px dotted grey;
+    background-color: var(--container-color);
+    border: 1px dotted var(--footer-color);
     margin: 0 auto;
     width: 96%;
     border-radius: 0.5rem;
@@ -30,7 +40,7 @@ h1{
 }
 
 footer{
-    color: gray;
+    color: var(--footer-color);
     text-align: center;
 }
 
