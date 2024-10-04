@@ -122,23 +122,51 @@ label{
 
 #activites{
     height: 70vh;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
-.titre-activite{
-    border-bottom: solid 2px var(--text-color);
+
+.container-activites{
+    margin-bottom: 1rem;
+}
+
+.date-heure{
+    display: flex;
+    padding: 0 1rem;
+    margin-bottom: auto;
+    border: 1px dashed var(--footer-color);
 }
 
 .date{
     font-weight: bold;
 }
 
-#img-badminton-container{
-    width: 90%;
-    margin: 0 auto;
+.titre-activite{
+    margin: auto 0 auto 1rem;
 }
 
-#img-badminton-container img{
-    width: 100%;
+.titre-service{
+    border-bottom: solid 2px var(--text-color);
 }
+
+@media screen and (min-width: 768px) {
+    .container-activites{
+        display: flex;
+    }
+
+    .date-heure{
+        min-width: 200px;
+        max-width: 200px;
+        word-wrap: normal;
+        padding-right: 0;
+    }
+
+    .presentation-activite{
+        margin-left: 1rem;
+    }
+
+    .container-activites{
+        margin-bottom: 2rem;
+    }
+}  
 
 /*************************************************************************************************/
