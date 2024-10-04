@@ -52,9 +52,19 @@ footer p {
 }
 
 
-/* Benjamin - page contact.html */
+/*          Benjamin            */
 /*  v   v   v   v   v   v   v   */
 
+.infoImportante{
+    font-weight: 600;
+    transition: text-shadow 0.3s;
+}
+
+.infoImportante:hover{
+    text-shadow: 1px 1px 1px;
+}
+
+/*page contact.html*/
 .pageContact{
     display: flex;
     flex-direction: row;
@@ -106,17 +116,35 @@ label{
     font-size: 1.1rem;
 }
 
-.infoImportante{
-    font-weight: 600;
-    transition: text-shadow 0.3s;
+/*page aPropos.html*/
+
+.pageAPropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.infoImportante:hover{
-    text-shadow: 1px 1px 1px;
+.sectionAPropos{
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+.imgAPropos{
+    margin: 0 auto;
+    width: 70%;
+    max-width: 600px;
+}
+
+.imgAPropos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
 }
 
 /*  ^   ^   ^   ^   ^   ^   ^   */
-/* Benjamin - page contact.html */
+/*          Benjamin            */
+
 
 /*********************************  MODIFICICATIONS PAR VIVIANE *********************************/
 
