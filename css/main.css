@@ -63,7 +63,8 @@ footer p {
 }
 
 .voletContact{
-    max-width: 45%;
+    max-width: 25rem;
+    text-align: justify;
 }
 
 label{
@@ -95,10 +96,23 @@ label{
 }
 
 #boutonEnvoyer{
-    text-align: center;
+    margin: 0 auto;
     width: 5rem;
     height: 2rem;
     font-weight: 600;
+}
+
+.contactAlternatif{
+    font-size: 1.1rem;
+}
+
+.infoImportante{
+    font-weight: 600;
+    transition: text-shadow 0.3s;
+}
+
+.infoImportante:hover{
+    text-shadow: 1px 1px 1px;
 }
 
 /*  ^   ^   ^   ^   ^   ^   ^   */
