@@ -41,46 +41,65 @@
 
         <h2>Nous contactez</h2>
 
-        <div class="formulaireContact">
-            <form action="">
-                <div class="elementFormulaire">
-                    <label for="texteNom">Nom : </label>
-                    <input type="text" id="texteNom">
-                </div>
-                
-                <div class="elementFormulaire">
-                    <label for="textePrenom">Prénom : </label>
-                    <input type="text" id="textePrenom">
-                </div>
-                
-                <div class="elementFormulaire">
-                    <label for="texteMail">eMail : </label>
-                    <input type="mail" id="texteMail">
-                </div>
-                
-                <div class="elementFormulaire">
-                    <label for="selectRaison">Objet : </label>
-                    <select name="raison" id="selectRaison">
-                        <option value="inscription">Inscription</option>
-                        <option value="location">Location de matériel</option>
-                        <option value="decouverte">Cours de découverte</option>
-                        <option value="competition">Organiser une compétition</option>
-                        <option value="autre">Autre raison</option>
-                    </select>
-                </div>
-                
-                <div class="elementFormulaire">
-                    <label for="texteDetail">Veuillez détailler votre demande :</label>
-                    <textarea id="texteDetail"></textarea>
-                </div>
-                
-                <div class="elementFormulaire">
-                    <input type="button" id="boutonEnvoyer" value="Envoyer">
-                </div>
-            </form>
+        <div class="pageContact">
+
+            <div class="voletcontact">
+                <form action="" class="formulaireContact">
+                    <div class="elementFormulaire">
+                        <label for="texteNom">Nom : </label>
+                        <input type="text" id="texteNom" class="saisieTexte">
+                    </div>
+
+                    <div class="elementFormulaire">
+                        <label for="textePrenom">Prénom : </label>
+                        <input type="text" id="textePrenom" class="saisieTexte">
+                    </div>
+
+                    <div class="elementFormulaire">
+                        <label for="texteMail">eMail : </label>
+                        <input type="mail" id="texteMail" class="saisieTexte">
+                    </div>
+
+                    <div class="elementFormulaire">
+                        <label for="selectRaison">Objet : </label>
+                        <select name="raison" id="selectRaison">
+                            <option value="inscription">Inscription</option>
+                            <option value="location">Location de matériel</option>
+                            <option value="decouverte">Cours de découverte</option>
+                            <option value="competition">Organiser une compétition</option>
+                            <option value="autre">Autre raison</option>
+                        </select>
+                    </div>
+
+                    <div class="elementFormulaire">
+                        <label for="texteDetail">Veuillez détailler votre demande :</label>
+                    </div>
+                    <div class="elementFormulaire">
+                        <textarea id="texteDetail"></textarea>
+                    </div>
+
+                    <div class="elementFormulaire">
+                        <input type="button" id="boutonEnvoyer" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+
+            <div class="voletcontact">
+                <p class="contactAlternatif">
+                    Pour toute questions supplémentaire vous pouvez Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem quia provident odio nesciunt quae illo error doloribus pariatur veritatis atque rerum, temporibus dignissimos rem eaque, architecto autem voluptatibus harum <br>
+                    ...nous contacter par téléphone au 01.02.03.04.05 ou par courrier à cette adresse : 1 rue de la république 54000 Nancy
+                </p>
+            </div>
+            
         </div>
 
     </div>
+
+    <footer>
+        <p>
+            marques légales Asso
+        </p>
+    </footer>
 
 </body>
 

@@ -51,27 +51,55 @@ footer p {
     margin: 1rem 0 0 0;
 }
 
-/*********************************  MODIFICICATIONS PAR VIVIANE *********************************/
 
-#activites{
-    height: 70vh;
-    overflow-x: scroll;
-}
-.titre-activite{
-    border-bottom: solid 2px var(--text-color);
-}
+/* Benjamin - page contact.html */
+/*  v   v   v   v   v   v   v   */
 
-.date{
-    font-weight: bold;
+.pageContact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#img-badminton-container{
-    width: 90%;
-    margin: 0 auto;
+.voletContact{
+    max-width: 45%;
 }
 
-#img-badminton-container img{
+label{
+    margin-right: 1rem;
+}
+
+.formulaireContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+.elementFormulaire{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.saisieTexte{
+    flex: 2;
+}
+
+#texteDetail{
     width: 100%;
+    height: 5rem;
+    overflow: auto;
 }
 
-/*************************************************************************************************/
+#boutonEnvoyer{
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    font-weight: 600;
+}
+
+/*  ^   ^   ^   ^   ^   ^   ^   */
+/* Benjamin - page contact.html */
