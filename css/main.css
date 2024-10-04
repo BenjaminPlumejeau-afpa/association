@@ -103,3 +103,28 @@ label{
 
 /*  ^   ^   ^   ^   ^   ^   ^   */
 /* Benjamin - page contact.html */
+
+/*********************************  MODIFICICATIONS PAR VIVIANE *********************************/
+
+#activites{
+    height: 70vh;
+    overflow-x: scroll;
+}
+.titre-activite{
+    border-bottom: solid 2px var(--text-color);
+}
+
+.date{
+    font-weight: bold;
+}
+
+#img-badminton-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#img-badminton-container img{
+    width: 100%;
+}
+
+/*************************************************************************************************/
