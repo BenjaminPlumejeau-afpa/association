@@ -6,6 +6,17 @@ nav {
     top: 0;
 }
 
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: text-shadow 0.3s;
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 1px;
+}
+
 nav table {
     background-color: lightblue;
     width: 80%;
