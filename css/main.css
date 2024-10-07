@@ -75,6 +75,8 @@ footer p {
 .voletContact{
     max-width: 25rem;
     text-align: justify;
+    flex: 1;
+    margin: 1em;
 }
 
 label{
