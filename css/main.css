@@ -43,7 +43,7 @@ h1 {
     margin-bottom: 3rem;
 }
 
-h2::before{
+h2::before {
     content: "🏸 ";
 }
 
@@ -56,17 +56,17 @@ footer p {
     margin: 1rem 0 0 0;
 }
 
-.sectionExplicative{
+.sectionExplicative {
     text-align: justify;
     margin-bottom: 1em;
     width: 100%;
 }
 
-.titre-section{
+.titre-section {
     border-bottom: solid 2px var(--text-color);
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: var(--text-color);
 }
@@ -75,27 +75,27 @@ nav a{
 /*          Benjamin            */
 /*  v   v   v   v   v   v   v   */
 
-.infoImportante{
+.infoImportante {
     font-weight: 600;
     transition: text-shadow 0.3s;
 }
 
-.infoImportante:hover{
+.infoImportante:hover {
     text-shadow: 1px 1px 1px;
 }
 
 /*page contact.html*/
-.infoImportante{
+.infoImportante {
     font-weight: 600;
     transition: text-shadow 0.3s;
 }
 
-.infoImportante:hover{
+.infoImportante:hover {
     text-shadow: 1px 1px 1px;
 }
 
 /*page contact.html*/
-.pageContact{
+.pageContact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,63 +103,63 @@ nav a{
     align-items: flex-start;
 }
 
-.voletContact{
+.voletContact {
     max-width: 25rem;
     text-align: justify;
     flex: 1;
     margin: 1em;
 }
 
-label{
+label {
     margin-right: 1rem;
 }
 
-.formulaireContact{
+.formulaireContact {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 90%;
 }
 
-.elementFormulaire{
+.elementFormulaire {
     display: flex;
     justify-content: flex-start;
     max-width: 25rem;
     margin-bottom: 1rem;
 }
 
-.saisieTexte{
+.saisieTexte {
     flex: 2;
 }
 
-#texteDetail{
+#texteDetail {
     width: 100%;
     height: 5rem;
     overflow: auto;
 }
 
-#boutonEnvoyer{
+#boutonEnvoyer {
     margin: 0 auto;
     width: 5rem;
     height: 2rem;
     font-weight: 600;
 }
 
-.contactAlternatif{
+.contactAlternatif {
     font-size: 1.1rem;
     margin: 0;
 }
 
 /*page aPropos.html*/
 
-.pageAPropos{
+.pageAPropos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.imgAPropos{
+.imgAPropos {
     margin: 0 auto;
     width: 70%;
     max-width: 600px;
@@ -169,7 +169,9 @@ label{
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-.imgAPropos{
+}
+
+.imgAPropos {
     margin: 0 auto;
     width: 70%;
     max-width: 600px;
@@ -187,49 +189,49 @@ label{
 
 /*********************************  MODIFICICATIONS PAR VIVIANE *********************************/
 
-#activites{
+#activites {
     height: 70vh;
     overflow-y: scroll;
 }
 
-.container-activites{
+.container-activites {
     margin-bottom: 1rem;
 }
 
-.date-heure{
+.date-heure {
     display: flex;
     padding: 0 1rem;
     margin-bottom: auto;
     border: 1px dashed var(--footer-color);
 }
 
-.date{
+.date {
     font-weight: bold;
 }
 
-.titre-activite{
+.titre-activite {
     margin: auto 0 auto 1rem;
-} 
+}
 
 /*************************************************************************************************/
 
 @media screen and (min-width: 768px) {
-    .container-activites{
+    .container-activites {
         display: flex;
     }
 
-    .date-heure{
+    .date-heure {
         min-width: 200px;
         max-width: 200px;
         word-wrap: normal;
         padding-right: 0;
     }
 
-    .presentation-activite{
+    .presentation-activite {
         margin-left: 1rem;
     }
 
-    .container-activites{
+    .container-activites {
         margin-bottom: 2rem;
     }
 
@@ -238,13 +240,13 @@ label{
         padding: 1rem;
     }
 
-    .voletContact{
+    .voletContact {
         margin: 0 2rem;
     }
-} 
+}
 
-@media screen and (max-width: 992px){
-    #imgContact{
+@media screen and (max-width: 992px) {
+    #imgContact {
         display: none;
     }
 }
